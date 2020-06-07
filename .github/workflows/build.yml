@@ -8,7 +8,8 @@ jobs:
   
   build:
     
-    runs-on: thomasweise/texlive
+    runs-on: ubuntu-latest
+    container: thomasweise/texlive
     steps:
       - name: Checkout
         uses: actions/checkout@v2
